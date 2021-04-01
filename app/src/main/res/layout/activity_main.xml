@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background=" #00b3b3"
+    android:background="#000000"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
@@ -13,7 +13,9 @@
         android:layout_height="230dp"
         android:maxLength="12"
         android:textSize="45sp"
-        android:textColor="#ffff00"
+        android:text=""
+        android:background="#333333"
+        android:textColor="#ffffff"
          />
 
     <LinearLayout
@@ -30,12 +32,12 @@
             android:id="@+id/btnSeven"
             android:layout_width="0dp"
             android:layout_height="match_parent"
+            android:layout_marginRight="2dp"
             android:layout_weight="1"
-            android:textSize="25sp"
             android:onClick="onDigit"
             android:text="7"
-            android:layout_marginRight="2dp"
-            />
+            android:textColor="@color/white"
+            android:textSize="25sp" />
 
         <Button
             android:id="@+id/btnEight"
