@@ -7,4 +7,11 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="tv_backgrd">#ffffb3</color>
+    <color name="numberbtn">#cc6600</color>
+    <color name="symbtns">#ff6600</color>
+    <color name="clscr">#668cff</color>
+    <color name="tv_text">#801a00</color>
+    <color name="nbtxt">#668cff</color>
+    <color name="symtxt">#668cff</color>
 </resources>
