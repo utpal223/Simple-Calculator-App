@@ -4,16 +4,18 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#000000"
+    android:background="#595959"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/txtv"
         android:layout_width="match_parent"
         android:layout_height="230dp"
         android:maxLength="12"
         android:textSize="45sp"
-        android:text=""
+        android:padding="10dp"
+        android:gravity="bottom|right|center_vertical"
         android:background="#333333"
         android:textColor="#ffffff"
          />
