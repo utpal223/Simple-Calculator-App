@@ -47,6 +47,7 @@
             android:textSize="25sp"
             android:layout_height="match_parent"
             android:layout_weight="1"
+            android:textColor="@color/white"
             android:onClick="onDigit"
             android:layout_marginRight="2dp"
             android:text="8" />
@@ -55,6 +56,7 @@
             android:id="@+id/btnNine"
             android:layout_width="0dp"
             android:textSize="25sp"
+            android:textColor="@color/white"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:onClick="onDigit"
@@ -66,6 +68,7 @@
             android:layout_width="0dp"
             android:textSize="28sp"
             android:layout_height="match_parent"
+            android:textColor="@color/white"
             android:layout_weight="1"
             android:onClick="onOperator"
             android:text="/" />
@@ -86,6 +89,7 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:textSize="25sp"
+            android:textColor="@color/white"
             android:layout_weight="1"
             android:onClick="onDigit"
             android:layout_marginRight="2dp"
@@ -97,6 +101,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:textSize="25sp"
+            android:textColor="@color/white"
             android:onClick="onDigit"
             android:layout_marginRight="2dp"
             android:text="5" />
@@ -106,6 +111,7 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
+            android:textColor="@color/white"
             android:onClick="onDigit"
             android:textSize="25sp"
             android:layout_marginRight="2dp"
@@ -117,6 +123,7 @@
             android:layout_height="match_parent"
             android:textSize="30sp"
             android:layout_weight="1"
+            android:textColor="@color/white"
             android:onClick="onOperator"
             android:text="*" />
 
@@ -135,6 +142,7 @@
             android:layout_width="0dp"
             android:textSize="25sp"
             android:layout_height="match_parent"
+            android:textColor="@color/white"
             android:layout_weight="1"
             android:onClick="onDigit"
             android:layout_marginRight="2dp"
@@ -147,6 +155,7 @@
             android:textSize="25sp"
             android:layout_weight="1"
             android:onClick="onDigit"
+            android:textColor="@color/white"
             android:layout_marginRight="2dp"
             android:text="2" />
 
@@ -156,6 +165,7 @@
             android:layout_height="match_parent"
             android:textSize="25sp"
             android:layout_weight="1"
+            android:textColor="@color/white"
             android:onClick="onDigit"
             android:layout_marginRight="2dp"
             android:text="3" />
@@ -166,6 +176,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:onClick="onOperator"
+            android:textColor="@color/white"
             android:textSize="35sp"
             android:text="-" />
     </LinearLayout>
@@ -184,6 +195,7 @@
             android:layout_height="match_parent"
             android:layout_marginRight="2dp"
             android:layout_weight="1"
+            android:textColor="@color/white"
             android:onClick="onDecimalPoint"
             android:textSize="35sp"
             android:text="."
@@ -196,12 +208,14 @@
             android:layout_weight="1"
             android:onClick="onDigit"
             android:textSize="25sp"
+            android:textColor="@color/white"
             android:layout_marginRight="2dp"
             android:text="0" />
 
         <Button
             android:id="@+id/btnClear"
             android:layout_width="0dp"
+            android:textColor="@color/white"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:layout_marginRight="2dp"
@@ -216,6 +230,7 @@
             android:layout_weight="1"
             android:onClick="onOperator"
             android:textSize="28sp"
+            android:textColor="@color/white"
             android:text="+" />
 
     </LinearLayout>
@@ -234,6 +249,7 @@
             android:layout_height="match_parent"
             android:onClick="onEqual"
             android:textSize="35sp"
+            android:textColor="@color/white"
             android:text="=" />
     </LinearLayout>
 
